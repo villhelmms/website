@@ -21,4 +21,4 @@ menu:
     weight: 10
 ---
 
-Saturs
+Es esmu cilvēks - teksts ir WIP

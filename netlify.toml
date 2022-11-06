@@ -1,2 +1,8 @@
 [content.production.environment]
 HUGO_VERSION = "0.105.0"
+
+[[redirects]]
+  from = "https://test.bavins.me/*"
+  to = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  status = 301
+  force = true

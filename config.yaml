@@ -11,7 +11,7 @@ languages:
   lv:
     languageName: Latviešu
     contentDir: content/latvian
-    title: Mans Blogs
+    title: "Mājaslapa - WIP"
     weight: 1
     menu:
       main:
@@ -33,7 +33,7 @@ languages:
   en:
     languageName: English
     contentDir: content/english
-    title: My Blog
+    title: "Website - WIP"
     weight: 2
     menu:
       main:
@@ -67,7 +67,7 @@ params:
   #   - js/main.js # relative path to "assets" directory
   dateFormat: "02-01-2006"
   paginationSinglePost: true
-  style: dark-with-switcher
+  style: dark-without-switcher
   readMore: true # show read more button
   readNextPosts: 0  # show 5 related posts, 0 by default
   disableSummary: false
