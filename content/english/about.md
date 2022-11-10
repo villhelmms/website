@@ -21,4 +21,4 @@ menu:
     weight: 10
 ---
 
-I'm a human - text is WIP
+I am a human - WIP

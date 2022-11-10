@@ -21,4 +21,4 @@ menu:
     weight: 10
 ---
 
-Es esmu cilvēks - teksts ir WIP
+Es esmu cilvēks - WIP

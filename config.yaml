@@ -16,10 +16,10 @@ languages:
     weight: 1
     menu:
       main:
-      - identifier: posts
-        name: Raksti
-        title: Raksti
-        url: /posts/
+      - identifier: archive
+        name: Arhīvs
+        title: Arhīvs
+        url: /archive/
         weight: 1
       - identifier: contacts
         name: Kontakti
@@ -38,10 +38,10 @@ languages:
     weight: 2
     menu:
       main:
-      - identifier: posts
-        name: Posts
-        title: Posts
-        url: /posts/
+      - identifier: archive
+        name: Archive
+        title: Archive
+        url: /archive/
         weight: 1
       - identifier: contacts
         name: Contacts
