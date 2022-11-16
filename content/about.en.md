@@ -3,6 +3,7 @@ title: "Hello!"
 description: "Here you will find out little more about me, my professional experience and my education!"
 type: post
 hidden: true
+layout: "about"
 ---
 
 > My name is Wilhelm - IT student from Valka / Latvia with an interest in virtualization, networking, and computer administration. I'm not perfect, but I can improve. In my spare time, I try to learn about new tech with the resources available to me and also take part in motorcycle parades a few times a year, even though I know nothing about motorcycles.
@@ -41,4 +42,4 @@ hidden: true
     - [PDF from rtk.lv (Latvian)](https://www.rtk.lv/?fails=1574950332.pdf)
 
 ### Contact information:
-E-pasts: vilhelmsbavins@gmail.com
+Email: vilhelmsbavins@gmail.com

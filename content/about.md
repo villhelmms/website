@@ -3,6 +3,7 @@ title: "Sveiki!"
 description: "Šeit varat uzzināt nedaudz vairāk par mani, manu profesionālo pieredzi un izglītību!"
 type: post
 hidden: true
+layout: "about"
 ---
 
 > Es esmu Vilhelms - IT specialitātes students no Valkas ar interesi virtualizācijā, tīklošanā un datorsistēmu administrācijā. Neesmu perfekts, bet es varu sevi pilnveidot. Brīvajā laikā cenšos iepazīt jaunākās tehnoloģijas, izmantojot to, kas man apkārt ir brīvi pieejams, kā arī dažas reizes gadā sanāk piedalīties motociklu parādēs, kaut arī neko par motocikliem nezinu.

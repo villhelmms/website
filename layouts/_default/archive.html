@@ -1,4 +1,13 @@
 {{ define "main" }}
+
+{{ if .Menus }}
+<nav class="post-navigation">
+{{ range .Menus }}
+    <a href="{{ .URL | absLangURL }}" title="{{ .Title }}">{{ .Name }}</a>
+{{ end }}
+</nav>
+{{ end }}
+
 <section class="section is-fullheight">
   {{ $type := .Type }}
   {{ $.Scratch.Set "count" 1 }}

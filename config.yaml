@@ -27,16 +27,17 @@ languages:
         title: Tags
         url: /tags/
         weight: 2
+      - identifier: categories
+        name: Categories
+        title: Categories
+        url: /categories/
+        weight: 3
       - identifier: about
         name: About / Contacts
         title: About / Contacts
         url: /about/
-        weight: 3
-#      - identifier: projects
-#        name: Projects
-#        title: Projects
-#        url: /projects/
-#        weight: 4
+        weight: 4
+
 menu:
   main:
   - identifier: archive
@@ -49,17 +50,16 @@ menu:
     title: Tagi
     url: /tags/
     weight: 2
+  - identifier: categories
+    name: Kategorijas
+    title: Kategorijas
+    url: /categories/
+    weight: 3
   - identifier: about
     name: Par sevi / Kontakti
     title: Par sevi / Kontakti
     url: /about/
-    weight: 3
-#  - identifier: projects
-#    name: Projekti
-#    title: Projekti
-#    url: /projects/
-#    weight: 4
-    
+    weight: 4
 
 params:
   author: "Vilhelms Bavins"
@@ -76,10 +76,10 @@ params:
   # images:
   #   - images/og-featured.png # relative path to "static" directory
   
-  # utteranc.es support // comments
-  utterancesRepo: "https://github.com/villhelmms/website"  # mandatory
-  utterancesTheme: "" # optional
-  utterancesIssue: "" # optional
+  #utteranc.es support // comments
+  utterancesRepo: "villhelmms/website"  # mandatory
+  utterancesTheme: "github-dark" # optional
+  utterancesIssue: "title" # optional
   utterancesLabel: "" # optional
 
   social:
