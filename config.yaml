@@ -3,7 +3,7 @@ languageCode: "en-us"
 defaultContentLanguage: lv
 title: "Vilhelms Bavins"
 theme: "anubis"
-paginate: 3
+paginate: 5
 
 #disqusShortname: ""
 #googleAnalytics: ""
@@ -11,10 +11,10 @@ paginate: 3
 languages:
   lv:
     languageName: Latviešu
-    title: "Mājaslapa - WIP"
+    title: "Vilhelms Bavins"
   en:
     languageName: English
-    title: "Website - WIP"
+    title: "Vilhelms Bavins"
     menu:
       main:
       - identifier: archive
@@ -27,16 +27,16 @@ languages:
         title: Tags
         url: /tags/
         weight: 2
-      - identifier: contacts
-        name: Contacts
-        title: Contacts
-        url: /contacts/
-        weight: 3
       - identifier: about
-        name: About Page
-        title: About Page
+        name: About / Contacts
+        title: About / Contacts
         url: /about/
-        weight: 4
+        weight: 3
+#      - identifier: projects
+#        name: Projects
+#        title: Projects
+#        url: /projects/
+#        weight: 4
 menu:
   main:
   - identifier: archive
@@ -49,16 +49,16 @@ menu:
     title: Tagi
     url: /tags/
     weight: 2
-  - identifier: contacts
-    name: Kontakti
-    title: Kontakti
-    url: /contacts/
-    weight: 3
   - identifier: about
-    name: Par autoru
-    title: Par autoru
+    name: Par sevi / Kontakti
+    title: Par sevi / Kontakti
     url: /about/
-    weight: 4
+    weight: 3
+#  - identifier: projects
+#    name: Projekti
+#    title: Projekti
+#    url: /projects/
+#    weight: 4
     
 
 params:
@@ -76,8 +76,8 @@ params:
   # images:
   #   - images/og-featured.png # relative path to "static" directory
   
-  # utteranc.es support
-  utterancesRepo: ""  # mandatory
+  # utteranc.es support // comments
+  utterancesRepo: "https://github.com/villhelmms/website"  # mandatory
   utterancesTheme: "" # optional
   utterancesIssue: "" # optional
   utterancesLabel: "" # optional

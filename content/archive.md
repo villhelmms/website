@@ -1,7 +1,6 @@
 ---
 title: "Arhīvs"
-description: ""
-date: 1970-01-01T00:00:00+00:00
+description: "Visi mani bloga raksti vieuviet, sakartoti pa gadiem!"
 type: post
 hidden: true
 layout: "archive"
