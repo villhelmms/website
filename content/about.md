@@ -6,9 +6,7 @@ hidden: true
 layout: "about"
 ---
 
-> Es esmu Vilhelms - IT specialitātes students no Valkas ar interesi virtualizācijā, tīklošanā un datorsistēmu administrācijā. Neesmu perfekts, bet es varu sevi pilnveidot. Brīvajā laikā cenšos iepazīt jaunākās tehnoloģijas, izmantojot to, kas man apkārt ir brīvi pieejams, kā arī dažas reizes gadā sanāk piedalīties motociklu parādēs, kaut arī neko par motocikliem nezinu.
-
-&darr; &darr; &darr; Zemāk var uzzināt nedaudz variāk par savu pieredzi un izglītību &darr; &darr; &darr;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Es esmu Vilhelms - IT specialitātes students no Valkas ar interesi virtualizācijā, tīklošanā un datorsistēmu administrācijā. Neesmu perfekts, bet es varu sevi pilnveidot. Brīvajā laikā cenšos iepazīt jaunākās tehnoloģijas, izmantojot to, kas man apkārt ir brīvi pieejams, kā arī dažas reizes gadā sanāk piedalīties motociklu parādēs, kaut arī neko par motocikliem nezinu.
 
 ### Profesionālā pieredze:
 

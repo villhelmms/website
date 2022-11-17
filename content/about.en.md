@@ -6,9 +6,7 @@ hidden: true
 layout: "about"
 ---
 
-> My name is Wilhelm - IT student from Valka / Latvia with an interest in virtualization, networking, and computer administration. I'm not perfect, but I can improve. In my spare time, I try to learn about new tech with the resources available to me and also take part in motorcycle parades a few times a year, even though I know nothing about motorcycles.
-
-&darr; &darr; &darr; Below you can find my work experience and education &darr; &darr; &darr;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;My name is Wilhelm - IT student from Valka / Latvia with an interest in virtualization, networking, and computer administration. I'm not perfect, but I can improve. In my spare time, I try to learn about new tech with the resources available to me and also take part in motorcycle parades a few times a year, even though I know nothing about motorcycles.
 
 ### Professional Experience:
 
