@@ -22,19 +22,19 @@ languages:
         title: Archive
         url: /archive/
         weight: 1
-      - identifier: tags
-        name: Tags
-        title: Tags
-        url: /tags/
-        weight: 2
-      - identifier: categories
-        name: Categories
-        title: Categories
-        url: /categories/
-        weight: 3
+#      - identifier: tags
+#        name: Tags
+#        title: Tags
+#        url: /tags/
+#        weight: 2
+#      - identifier: categories
+#        name: Categories
+#        title: Categories
+#        url: /categories/
+#        weight: 3
       - identifier: about
-        name: About / Contacts
-        title: About / Contacts
+        name: About #/ Contacts
+        title: About #/ Contacts
         url: /about/
         weight: 4
 
@@ -45,19 +45,19 @@ menu:
     title: Arhīvs
     url: /archive/
     weight: 1
-  - identifier: tags
-    name: Tagi
-    title: Tagi
-    url: /tags/
-    weight: 2
-  - identifier: categories
-    name: Kategorijas
-    title: Kategorijas
-    url: /categories/
-    weight: 3
+#  - identifier: tags
+#    name: Tagi
+#    title: Tagi
+#    url: /tags/
+#    weight: 2
+#  - identifier: categories
+#    name: Kategorijas
+#    title: Kategorijas
+#    url: /categories/
+#    weight: 3
   - identifier: about
-    name: Par sevi / Kontakti
-    title: Par sevi / Kontakti
+    name: Par sevi #/ Kontakti
+    title: Par sevi #/ Kontakti
     url: /about/
     weight: 4
 
@@ -66,7 +66,7 @@ params:
   description: "This is my personal website!"
   dateFormat: "02-01-2006"
   paginationSinglePost: true
-  style: dark-without-switcher
+  style: auto
   readMore: true
   readNextPosts: 2 
   disableSummary: false

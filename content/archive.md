@@ -6,15 +6,14 @@ hidden: true
 layout: "archive"
 
 menu:
-  archive:
-    name: Arhīvs
-    title: Arhīvs
-    url: /archive
-    weight: 1
   tags:
-    parent: archive
-    name: Tags
-    title: Tags
+    name: Tagi
+    title: Tagi
     url: /tags/
-    weight: 10
+    weight: 2
+  categories:
+    name: Kategorijas
+    title: Kategorijas
+    url: /categories/
+    weight: 3
 ---
