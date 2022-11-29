@@ -11,16 +11,27 @@ layout: "about"
 ### Profesionālā pieredze:
 
 * SIA "SPX" (kvalifikācijas prakse) - **|** 07.09.2020. - 02.03.2021. **|** - _6 mēneši_
-	- Tehniskais atbalsts klientiem (attālināti un klātienē)
-    - Tīkla iekārtu konfigurēšana pēc noteiktās konfigurācijas
-    - WiFi tīkla pārklājuma mērīšana
-    - Datoru maiņa klientiem un datu migrēšana
-    - Datoru konfigurēšana (Windows)
+<details>
+    <summary>Lasīt vairāk...</summary>
+        <ul>
+            <li>Tehniskais atbalsts klientiem (attālināti un klātienē)</li>
+            <li>Tīkla iekārtu konfigurēšana pēc noteiktās konfigurācijas</li>
+            <li>WiFi tīkla pārklājuma mērīšana</li>
+            <li>Datoru maiņa klientiem un datu migrēšana</li>
+            <li>Datoru konfigurēšana (Windows)</li>
+        </ul>
+</details>
+
 
 * Valkas Jāņa Cimzes ģimnāzija (prakse uzņēmumā) - **|** 25.11.2019. - 14.02.2020. **|** - _3 mēneši_
-	- Tehniskais atbalsts skolotājiem un darbiniekiem (klātienē)
-    - Datoru maiņa un apkope
-    - Datoru konfigurēšana (Windows)
+<details>
+    <summary>Lasīt vairāk...</summary>
+        <ul>
+            <li>Tehniskais atbalsts skolotājiem un darbiniekiem (klātienē)</li>
+            <li>Datoru maiņa un apkope</li>
+            <li>Datoru konfigurēšana (Windows)</li>
+        </ul>
+</details>
 
 ### Izglītība:
 

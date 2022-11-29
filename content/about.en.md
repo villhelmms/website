@@ -11,16 +11,26 @@ layout: "about"
 ### Professional Experience:
 
 * SIA "SPX" (qualification internship) - **|** 07.09.2020. - 02.03.2021. **|** - *6 months*
-	- Technical support for clients (remote and onsite)
-    - Network device configuration according to a specified configuration
-    - WiFi Site Surveys
-    - Computer replacement for clients (including data migration)
-    - Computer configuration (Windows)
+<details>
+    <summary>Lasīt vairāk...</summary>
+        <ul>
+            <li>Technical support for clients (remote and onsite)</li>
+            <li>Network device configuration according to a specified configuration</li>
+            <li>WiFi Site Surveys</li>
+            <li>Computer replacement for clients (including data migration)</li>
+            <li>Computer configuration (Windows)</li>
+        </ul>
+</details>
 
 * Valka Janis Cimzes gymnasium (internship) - **|** 25.11.2019. - 14.02.2020. **|** - *3 months* 
-	- Technical support for teachers and school workers (onsite)
-    - Computer servicing
-    - Computer configuration (Windows)
+<details>
+    <summary>Lasīt vairāk...</summary>
+        <ul>
+            <li>Technical support for teachers and school workers (onsite)</li>
+            <li>Computer servicing</li>
+            <li>Computer configuration (Windows)</li>
+        </ul>
+</details>    
 
 ### Education:
 
