@@ -2,7 +2,7 @@
 title: "{{ replace .Name "-" " " | title }}"
 author: "Vilhelms Bavins"
 date: {{ .Date }}
-draft: true
+#draft: true
 description: ""
 tags: 
   - " "

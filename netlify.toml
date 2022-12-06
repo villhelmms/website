@@ -2,7 +2,13 @@
 HUGO_VERSION = "0.105.0"
 
 [[redirects]]
-  from = "/test"
+  from = "/admin"
   to = "https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+  status = 301
+  force = true
+
+[[redirects]]
+  from = "/bootstrap-css"
+  to = "https://gist.githubusercontent.com/villhelmms/6df342f48ff8eba50a709827821677f5/raw/570c0d7a843f0b27ccd446b009987627070ee691/bootstrap-breakpoint.css"
   status = 301
   force = true
