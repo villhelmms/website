@@ -1,0 +1,7 @@
+#fullscreen-image {
+  background-color: gray;
+}
+.mask {
+  background: linear-gradient(to bottom, rgba(63, 63, 63, 0.75), rgba(38, 96, 150, 0.5));
+  height: 100vh;
+}
