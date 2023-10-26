@@ -21,7 +21,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#" aria-current="page" data-bs-toggle="modal" data-bs-target="#alert">Aktualitātes</a>
+                        <a class="nav-link active" href="#" aria-current="page" data-bs-toggle="modal">Sākums</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#alert">Informācija</a>
@@ -31,21 +31,26 @@
                     </li>
                 </ul>
             </div>
+        
         </div>
     </nav>
 
     <div id="fullscreen-image">
         <div class="mask" id="gradiant-bg">
-            <div class="container d-flex align-items-center justify-content-center text-center h-100">
+            <div class="container d-flex flex-column align-items-center justify-content-center text-center h-100">
                 <div class="text-white">
                     <h1 class="mb-3 fw-bold">Vilhelms Bavins</h1>
-                    <h2 class="mb-2 h5">Nospiežot pogu <span class="fw-bold">"Fons"</span>, mainīsies fona krāsa pēc nejaušības principa.</h2>
+                    <h2 class="mb-2 h5">Nospiežot pogu <span class="fw-bold">"Krāsa"</span>, mainīsies fona krāsa pēc nejaušības principa.</h2>
                     <h2 class="mb-2 h5">Nospiežot pogu <span class="fw-bold">"Ieslēgt krāsu maiņu"</span>, mainīsies fona krāsa pēc nejaušības principa ik pēc 1 sekundes.</h2>
-                    <a class="btn btn-outline-light btn-lg m-2 fw-bold" role="button" onclick="changeGradient()">Fons</a>
+                    <a class="btn btn-outline-light btn-lg m-2 fw-bold" role="button" onclick="changeGradient()">Krāsa</a>
                     <a class="btn btn-outline-light btn-lg m-2 fw-bold" role="button" id="toggleButton" onclick="toggleChangeGradient()">Ieslēgt krāsu maiņu</a>
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="container fixed-bottom text-center">
+        <h2 class="mb-5 text-white">Krāsas HEX kods: <span class="fw-bold text-uppercase" id="colorHexCode">#FF0000</span></h2>
     </div>
 
     <div class="modal fade" id="alert" role="dialog" aria-labelledby="alertModalLabel" aria-hidden="true">
