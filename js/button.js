@@ -12,7 +12,7 @@ function newRGBA() {
     var r = randomInt();
     var g = randomInt();
     var b = randomInt();
-    return 'rgba(' + r + ', ' + g + ', ' + b + ', 0.5)';
+    return 'rgba(' + r + ', ' + g + ', ' + b + ', 1)';
 }
 
 // Funkcija izveido jaunu krāsu kodu
