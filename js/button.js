@@ -1,4 +1,4 @@
-// Izvēlās skaitli no 0 līdz 255 pēc nejaušībass principa (Random)
+/* // Izvēlās skaitli no 0 līdz 255 pēc nejaušībass principa (Random)
 function randomInt() {
     return Math.floor(Math.random() * 256)
 }
@@ -87,4 +87,4 @@ function toggleChangeGradient() {
     } else {
         toggleButton.textContent = "Ieslēgt krāsu maiņu"
     }
-}
+} */
