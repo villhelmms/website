@@ -1,3 +1,5 @@
+console.log("VJCĢ")
+
 // Izvēlās skaitli no 0 līdz 255 pēc nejaušībass principa (Random)
 function randomInt() {
     return Math.floor(Math.random() * 256)
