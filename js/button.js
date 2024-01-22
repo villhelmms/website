@@ -1,4 +1,4 @@
-console.log("VJCĢ")
+console.log("Tests 22.01.2024")
 
 // Izvēlās skaitli no 0 līdz 255 pēc nejaušībass principa (Random)
 function randomInt() {
