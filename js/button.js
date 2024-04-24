@@ -79,7 +79,7 @@ function toggleChangeGradient() {
             if (!isModalOpen) {
                 changeGradient()
             }
-        }, 10)
+        }, 1)
         toggleButton.onclick = function() {
             isToggled = true
             clearInterval(intervalId)
