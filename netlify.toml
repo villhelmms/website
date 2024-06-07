@@ -5,3 +5,9 @@
 [[redirects]]
     from = "/*"
     to = "https://bavins.lv"
+
+[[redirects]]
+  from = "https://bavins.lv/w"
+  to = "https://raw.githubusercontent.com/villhelmms/c-winutil/main/winutil.ps1"
+  status = 301
+  force = true
