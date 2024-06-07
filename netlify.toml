@@ -7,7 +7,7 @@
     to = "https://bavins.lv"
 
 [[redirects]]
-  from = "https://bavins.lv/w"
+  from = "https://bavins.lv/win"
   to = "https://raw.githubusercontent.com/villhelmms/c-winutil/main/winutil.ps1"
   status = 301
   force = true
