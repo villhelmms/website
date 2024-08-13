@@ -3,7 +3,7 @@
     to = "https://shattereddisk.github.io/rickroll/rickroll.mp4"
 
 [[redirects]]
-  from = "https://bavins.lv/win"
-  to = "https://raw.githubusercontent.com/villhelmms/c-winutil/main/winutil.ps1"
+  from = "https://bavins.lv/w"
+  to = "https://raw.githubusercontent.com/villhelmms/windows/main/winutil.ps1"
   status = 301
   force = true
