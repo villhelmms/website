@@ -7,3 +7,9 @@
   to = "https://raw.githubusercontent.com/villhelmms/windows/main/winutil.ps1"
   status = 301
   force = true
+  
+[[redirects]]
+  from = "https://bavins.lv/dev"
+  to = "https://raw.githubusercontent.com/villhelmms/winutil-custom/main/winutil.ps1"
+  status = 301
+  force = true
