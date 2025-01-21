@@ -70,6 +70,7 @@ function changeGradient() {
 // Funkcija maina lapas apakšējās daļas krāsu ik pēc 1 sekundes
 var isModalOpen = false
 var isToggled = false
+var colorTime = 1000
 function toggleChangeGradient() {
     isToggled = !isToggled
     var toggleButton = document.getElementById("toggleButton")
@@ -79,7 +80,7 @@ function toggleChangeGradient() {
             if (!isModalOpen) {
                 changeGradient()
             }
-        }, 10)
+        }, colorTime)
         toggleButton.onclick = function() {
             isToggled = true
             clearInterval(intervalId)
