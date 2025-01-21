@@ -1,7 +1,7 @@
 [[redirects]]
     from = "/home"
-    to = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fih1.redbubble.net%2Fimage.1012800335.1404%2Fpp%2C504x498-pad%2C600x600%2Cf8f8f8.u2.jpg&f=1&nofb=1&ipt=ea7c9e5ad854f96e8693e2852f0c7d73f5fadac75d46fbd11bb078fdeced4e38&ipo=images"
-    #to = "https://shattereddisk.github.io/rickroll/rickroll.mp4"
+    #to = "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fih1.redbubble.net%2Fimage.1012800335.1404%2Fpp%2C504x498-pad%2C600x600%2Cf8f8f8.u2.jpg&f=1&nofb=1&ipt=ea7c9e5ad854f96e8693e2852f0c7d73f5fadac75d46fbd11bb078fdeced4e38&ipo=images"
+    to = "https://shattereddisk.github.io/rickroll/rickroll.mp4"
 
 [[redirects]]
   from = "https://bavins.lv/w"
