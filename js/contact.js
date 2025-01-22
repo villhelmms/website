@@ -1,5 +1,4 @@
 console.log("Parole: i4j2so8g49j2")
-console.log("Malacis, Voldemār! Tu atradi paroli!")
 
 document.getElementById("submitButton").addEventListener('click', function() {
     const correctPassword = "i4j2so8g49j2";
