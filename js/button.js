@@ -1,5 +1,8 @@
 console.log("Tests 22.01.2024")
 
+const colorButton = document.getElementById("color-button")
+const toggleButton = document.getElementById("toggle-button")
+
 // Izvēlās skaitli no 0 līdz 255 pēc nejaušībass principa (Random)
 function randomInt() {
     return Math.floor(Math.random() * 256)
@@ -73,7 +76,6 @@ var isToggled = false
 var colorTime = 1
 function toggleChangeGradient() {
     isToggled = !isToggled
-    var toggleButton = document.getElementById("toggleButton")
     if (isToggled) {
         toggleButton.textContent = "Izslēgt krāsu maiņu"
         var intervalId = setInterval(function() {
@@ -91,3 +93,10 @@ function toggleChangeGradient() {
         toggleButton.textContent = "Ieslēgt krāsu maiņu"
     }
 }
+
+colorButton.addEventListener("click", () => {
+    changeGradient()
+})
+toggleButton.addEventListener("click", () => {
+    toggleChangeGradient()
+})
