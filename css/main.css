@@ -13,3 +13,6 @@ body {
 .vh-100-60 {
   height: calc(100vh - 200px)
 }
+textarea {
+  resize: none;
+}

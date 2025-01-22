@@ -35,58 +35,67 @@
 
     <div class="container text-white">
         <h1 class="text-center">Kontakti</h1>
-        <h2 class="text-center mt-5">Sazinies ar mani!</h2>
+        <h2 class="text-center mt-2">Sazinies ar mani!</h2>
         <form>
-            <label for="forName" class="form-label">Vārds</label>
-            <input type="text" id="forName" class="form-control" required>
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <label for="forName" class="form-label">Vārds</label>
+                    <input type="text" id="forName" class="form-control">
 
-            <label for="forEmail">E-pasts</label>
-            <input type="email" id="forEmail" class="form-control" required>
+                    <label for="forEmail">E-pasts</label>
+                    <input type="email" id="forEmail" class="form-control">
 
-            <label for="forPassword">Parole</label>
-            <input type="password" id="forPassword" class="form-control" required>
-            <div id="passwordHelp" class="form-text text-white">Šajā mājaslapā ir paslēpta parole. Atrodi to, lai iesniegtu savu ziņu.</div>
-            <div id="passwordHelp" class="form-text text-white">Datu drošība! Lūdzu, neraksti savu paroli!</div>
+                    <label for="forPassword">Parole</label>
+                    <input type="password" id="forPassword" class="form-control">
+                    <div id="passwordHelp" class="form-text text-white">Šajā mājaslapā ir paslēpta parole. Atrodi to, lai iesniegtu savu ziņu.</div>
+                    <div id="passwordHelp" class="form-text text-white">Datu drošība! Lūdzu, neraksti savu paroli!</div>
 
-            <label for="forInput">Ziņa</label>
-            <textarea class="form-control" id="forInput" rows="5" required></textarea>
+                    <label for="forInput">Ziņa</label>
+                    <textarea class="form-control" id="forInput" rows="5"></textarea>
+                    <button type="button" id="submitButton" class="btn btn-primary mt-3">Iesniegt savu ziņu!</button>
+                </div>
+                    
+                <div class="col-12 col-lg-6 mt-4">
+                    <div class="row border-bottom pb-4">
+                        <div class="col">
+                            <i class="fa-solid fa-globe fs-2"></i>
+                            <h2 class="h4">Mājaslapa</h2>
+                            <a href="https://bavins.lv/" target="_blank" class="text-white">https://bavins.lv/</a>
+                        </div>
+                        <div class="col">
+                            <i class="fa-solid fa-envelope fs-2"></i>
+                            <h2 class="h4">E-pasts</h2>
+                            <a href="mailto:vilhelms@bavins.lv" target="_blank" class="text-white">vilhelms@bavins.lv</a>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4 border-bottom pb-2">
+                        <div class="col">
+                            <i class="fa-solid fa-phone-volume fs-2"></i>
+                            <h2 class="h4">Telefona Nr.</h2>
+                            <a href="tel:+37122222222" target="_blank" class="text-white">+371 22 222 222</a>
+                        </div>
+                        <div class="col">
+                            <i class="fa-solid fa-hashtag fs-2"></i>
+                            <h2 class="h4">Personas kods</h2>
+                            <p>242424-11111</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col mt-3">
+                            <i class="fa-solid fa-house fs-2"></i>
+                            <h2 class="h4">Adrese</h2>
+                            <p>Tālavas iela 4, Valka, Valkas pilsēta, Valkas novads, LV-4701</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </form>
-        <button id="submitButton" class="btn btn-primary mt-3">Iesniegt savu ziņu!</button>
     </div>
 
     <div class="container text-white">
         <div class="container mt-5">
-            <div class="row">
-                <div class="col">
-                    <i class="fa-solid fa-globe fs-2"></i>
-                    <h2 class="h4">Mājaslapa</h2>
-                    <a href="https://bavins.lv/" target="_blank" class="text-white">https://bavins.lv/</a>
-                </div>
-                <div class="col">
-                    <i class="fa-solid fa-envelope fs-2"></i>
-                    <h2 class="h4">E-pasts</h2>
-                    <a href="mailto:vilhelms@bavins.lv" target="_blank" class="text-white">vilhelms@bavins.lv</a>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col">
-                    <i class="fa-solid fa-phone-volume fs-2"></i>
-                    <h2 class="h4">Telefona Nr.</h2>
-                    <a href="tel:+37122222222" target="_blank" class="text-white">+371 22 222 222</a>
-                </div>
-                <div class="col">
-                    <i class="fa-solid fa-house fs-2"></i>
-                    <h2 class="h4">Adrese</h2>
-                    <p>Tālavas iela 4, Valka, Valkas pilsēta, Valkas novads, LV-4701</p>
-                </div>
-            </div>
-            <div class="row mt-4">
-                <div class="col-6">
-                    <i class="fa-solid fa-hashtag fs-2"></i>
-                    <h2 class="h4">Personas kods</h2>
-                    <p>242424-11111</p>
-                </div>
-            </div>
             <div class="row justify-content-md-center text-center fs-2">
                 <div class="col-1">
                     <a href="" target="_blank" class="text-white"><i class="fa-brands fa-github"></i></a>
@@ -145,7 +154,7 @@
                     <h5 class="modal-title" id="alertModalLabel">GG!</h5>
                 </div>
                 <div class="modal-body">
-                    <p>Tagad piecelies kājās un skaļi pasaki "Kartupeļu pankūkas!". Starp citu, tava ziņa netika iesniegta, jo šī forma nestrādā.</p>
+                    <p>Tagad piecelies kājās un skaļi pasaki "kartupeļu pankūkas!". Starp citu, tava ziņa netika iesniegta, jo šī forma nestrādā.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#alertNo10">Aizvērt</button>
@@ -161,7 +170,7 @@
                     <h5 class="modal-title" id="alertModalLabel">Kļūda</h5>
                 </div>
                 <div class="modal-body">
-                    <p>Nepareiza parole. Atrodi paroli kaut kur šajā mājaslapā!</p>
+                    <p>Nepareiza parole. Paroli var atrast šajā mājaslapā.</p>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Aizvērt</button>
