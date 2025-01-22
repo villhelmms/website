@@ -4,24 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/main.css">
     <link rel="icon" href="assets/logo/favicon.png">
     <title>Sākums - bavins.lv</title>
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-md navbar-dark bg-transparent">
-        <div class="container">
-
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container ">
             <a class="navbar-brand" href="https://bavins.lv/home">Vilhelms Bavins</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-  
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#" aria-current="page" data-bs-toggle="modal">Sākums</a>
+                        <a class="nav-link active" href="#" aria-current="page">Sākums</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#alertWIP">Informācija</a>
@@ -31,30 +29,28 @@
                     </li>
                 </ul>
             </div>
-        
         </div>
     </nav>
 
-    <div id="fullscreen-image">
-        <div class="mask" id="gradiant-bg">
-            <div class="container d-flex flex-column align-items-center justify-content-center text-center h-100">
-                <div class="text-white">
-                    <h1>Krāsu maiņa</h1>
-                    <h2 class="mb-2 h5">Nospiežot pogu <span class="fw-bold">"Krāsa"</span>, mainīsies fona krāsa pēc nejaušības principa.</h2>
-                    <h2 class="mb-2 h5">Nospiežot pogu <span class="fw-bold">"Ieslēgt krāsu maiņu"</span>, mainīsies fona krāsa pēc nejaušības principa ik pēc 1 sekundes.</h2>
-                    <a class="btn btn-outline-light btn-lg m-2 fw-bold" role="button" onclick="changeGradient()">Krāsa</a>
-                    <a class="btn btn-outline-light btn-lg m-2 fw-bold" role="button" id="toggleButton" onclick="toggleChangeGradient()">Ieslēgt krāsu maiņu</a>
-                </div>
-                <!--<div class="text-white">
-                    <h1>Te nekā nav. Vai Tu man tici?</h1>
-                </div>-->
-            </div>
+    <div class="container text-center d-flex justify-content-center align-items-center vh-100-60">
+    <!--<div class="container d-flex flex-column align-items-center justify-content-center text-center h-100">-->
+        <div class="text-white">
+            <h1 class="fw-bold">Krāsu maiņa</h1>
+            <h2 class="mb-2 h5">Nospiežot pogu <span class="fw-bold">"Krāsa"</span>, mainīsies fona krāsa pēc nejaušības principa.</h2>
+            <h2 class="mb-2 h5">Nospiežot pogu <span class="fw-bold">"Ieslēgt krāsu maiņu"</span>, mainīsies fona krāsa pēc nejaušības principa ik pēc 1 sekundes.</h2>
+            <a class="btn btn-outline-light btn-lg m-2 fw-bold" role="button" onclick="changeGradient()">Krāsa</a>
+            <a class="btn btn-outline-light btn-lg m-2 fw-bold" role="button" id="toggleButton" onclick="toggleChangeGradient()">Ieslēgt krāsu maiņu</a>
         </div>
+        <!--<div class="text-white">
+            <h1>Te nekā nav. Vai Tu man tici?</h1>
+        </div>-->
     </div>
 
     <div class="container fixed-bottom text-center">
         <h2 class="mb-5 text-white">Krāsas HEX kods: <span class="fw-bold text-uppercase" id="colorHexCode">#FF0000</span></h2>
     </div>
+
+    <div class="mask fixed-top" id="gradiant-bg"></div>
 
     <div class="modal fade" id="alertWIP" role="dialog" aria-labelledby="alertModalLabel" aria-hidden="true">
         <div class="modal-dialog">
@@ -96,6 +92,6 @@
     </div>
 
     <script src="js/button.js"> </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
