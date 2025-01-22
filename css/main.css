@@ -11,5 +11,5 @@ body {
   z-index: -1;
 }
 .vh-100-60 {
-  height: calc(100vh - 60px)
+  height: calc(100vh - 200px)
 }

@@ -73,7 +73,7 @@ function changeGradient() {
 // Funkcija maina lapas apakšējās daļas krāsu ik pēc 1 sekundes
 var isModalOpen = false
 var isToggled = false
-var colorTime = 1
+var colorTime = 1000
 function toggleChangeGradient() {
     isToggled = !isToggled
     if (isToggled) {
