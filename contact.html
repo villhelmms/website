@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="assets/logo/favicon.png">
+    <title>Kontakti - bavins.lv</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark">
+        <div class="container ">
+            <a class="navbar-brand" href="https://bavins.lv/home">Vilhelms Bavins</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html" >Sākums</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#alertWIP">Informācija</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="">Kontakti</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container text-white">
+        <h1 class="text-center">Kontakti</h1>
+        <h2 class="text-center mt-2">Sazinies ar mani!</h2>
+        <form>
+            <div class="row">
+                <div class="col-12 col-lg-6">
+                    <label for="forName" class="form-label">Vārds</label>
+                    <input type="text" id="forName" class="form-control">
+
+                    <label for="forEmail">E-pasts</label>
+                    <input type="email" id="forEmail" class="form-control">
+
+                    <label for="forPassword">Parole</label>
+                    <input type="password" id="forPassword" class="form-control">
+                    <div id="passwordHelp" class="form-text text-white">Šajā mājaslapā ir paslēpta parole. Atrodi to, lai iesniegtu savu ziņu.</div>
+                    <div id="passwordHelp" class="form-text text-white">Datu drošība! Lūdzu, neraksti savu paroli!</div>
+
+                    <label for="forInput">Ziņa</label>
+                    <textarea class="form-control" id="forInput" rows="5"></textarea>
+                    <button type="button" id="submitButton" class="btn btn-primary mt-3">Iesniegt savu ziņu!</button>
+                </div>
+                    
+                <div class="col-12 col-lg-6 mt-4">
+                    <div class="row border-bottom pb-4">
+                        <div class="col">
+                            <i class="fa-solid fa-globe fs-2"></i>
+                            <h2 class="h4">Mājaslapa</h2>
+                            <a href="https://bavins.lv/" target="_blank" class="text-white">https://bavins.lv/</a>
+                        </div>
+                        <div class="col">
+                            <i class="fa-solid fa-envelope fs-2"></i>
+                            <h2 class="h4">E-pasts</h2>
+                            <a href="mailto:vilhelms@bavins.lv" target="_blank" class="text-white">vilhelms@bavins.lv</a>
+                        </div>
+                    </div>
+
+                    <div class="row mt-4 border-bottom pb-2">
+                        <div class="col">
+                            <i class="fa-solid fa-phone-volume fs-2"></i>
+                            <h2 class="h4">Telefona Nr.</h2>
+                            <a href="tel:+37122222222" target="_blank" class="text-white">+371 22 222 222</a>
+                        </div>
+                        <div class="col">
+                            <i class="fa-solid fa-hashtag fs-2"></i>
+                            <h2 class="h4">Personas kods</h2>
+                            <p>242424-11111</p>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col mt-3">
+                            <i class="fa-solid fa-house fs-2"></i>
+                            <h2 class="h4">Adrese</h2>
+                            <p>Tālavas iela 4, Valka, Valkas pilsēta, Valkas novads, LV-4701</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="container text-white">
+        <div class="container mt-5">
+            <div class="row justify-content-md-center text-center fs-2">
+                <div class="col-1">
+                    <a href="" target="_blank" class="text-white"><i class="fa-brands fa-github"></i></a>
+                </div>
+                <div class="col-1">
+                    <a href="" target="_blank" class="text-white"><i class="fa-brands fa-discord"></i></a>
+                </div>
+                <div class="col-1">
+                    <a href="https://steamcommunity.com/id/Vilhelms" target="_blank" class="text-white"><i class="fa-brands fa-steam"></i></a>
+                </div>
+                <div class="col-1">
+                    <a href="https://open.spotify.com/user/o613w1t5n87swodx9i6v0vpiq?si=02411e238679453c" target="_blank" class="text-white"><i class="fa-brands fa-spotify"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="mask fixed-top" id="gradiant-bg"></div>
+
+    <div class="modal fade" id="alertWIP" role="dialog" aria-labelledby="alertModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="alertModalLabel">Pārsteigums!</h5>
+                </div>
+                <div class="modal-body">
+                    <p>Šī poga nedarbojas :)</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Aizvērt</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="alertFormNotFull" role="dialog" aria-labelledby="alertModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="alertModalLabel">Kļūda</h5>
+                </div>
+                <div class="modal-body">
+                    <p>Lūdzu, aizpildi visus lauciņus.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Aizvērt</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="alertForm" role="dialog" aria-labelledby="alertModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="alertModalLabel">GG!</h5>
+                </div>
+                <div class="modal-body">
+                    <p>Aizej pie tāfeles un uzraksti "kartupeļu pankūkas". Starp citu, tava ziņa netika iesniegta, jo šī forma nestrādā.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal" data-bs-toggle="modal" data-bs-target="#alertNo10">Aizvērt</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="alertWrongPassword" role="dialog" aria-labelledby="alertModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="alertModalLabel">Kļūda</h5>
+                </div>
+                <div class="modal-body">
+                    <p>Nepareiza parole. Paroli var atrast šajā mājaslapā.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Aizvērt</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="alertNo10" role="dialog" aria-labelledby="alertModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="alertModalLabel">Kļūda</h5>
+                </div>
+                <div class="modal-body">
+                    <p>Un nē, par šo nebūs desmitnieks.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Aizvērt</button>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <div class="container border-top mt-3">
+        <footer class="mt-3">
+          <p class="text-center text-white">&copy; <span id="currentYear"></span> Vilhelms Bavins</p>
+        </footer>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
