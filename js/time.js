@@ -1,5 +1,4 @@
 const targetDate = new Date('2025-05-30T00:00:00');
-
 const publicHolidays = [
     "2025-04-18",  // Lielā piektdiena
     "2025-04-21",  // Otrās Lieldienas
@@ -24,7 +23,7 @@ const publicHolidays = [
              if (i === 0) {
                  // Calculate remaining work time for today if it's a workday
                  const endOfWorkDay = new Date(currentDay);
-                 endOfWorkDay.setHours(17, 0, 0, 0); // Assuming workday ends at 5 PM
+                 endOfWorkDay.setHours(23, 0, 0, 0);
                  if (today < endOfWorkDay) {
                      workSecondsLeftToday = Math.floor((endOfWorkDay - today) / 1000);
                  }
@@ -50,6 +49,8 @@ const publicHolidays = [
      const totalMinutesLeft = totalMinutes % 60;
      const totalSecondsLeft = totalSeconds % 60;
 
+     console.log(totalHours, totalHoursLeft)
+
      // Calculate work time left
      const workSeconds = workDays * 24 * 60 * 60 + workSecondsLeftToday;
      const workMinutes = Math.floor(workSeconds / 60);
@@ -69,3 +70,5 @@ const publicHolidays = [
  // Update the countdown immediately and then every second
  updateCountdown();
  setInterval(updateCountdown, 1000);
+
+ 
