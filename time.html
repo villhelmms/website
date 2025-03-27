@@ -35,9 +35,17 @@
     
     <div class="container text-center d-flex justify-content-center align-items-center vh-100-60">
         <div class="text-white">
-            <h1 class="fw-bold">Nospied pogu...</h1>
-            <a href="time.html" class="btn btn-outline-light btn-lg m-2 fw-bold" role="button">Laika atskaite</a>
-            <a href="colors.html" class="btn btn-outline-light btn-lg m-2 fw-bold" role="button">Krāsu maiņa</a>
+            <h2 class="fw-bold h1">Laika atskaite līdz Pēdējajam zvanam</h2>
+            <p class="h5">(05.05.2025.)</p>
+            <p class="h5">dienas: <span id="total-time1" class="fw-bold">Calculating...</span></p>
+            <p class="h5">darba dienas: <span id="work-time1" class="fw-bold">Calculating...</span></p>
+            
+            <h2 class="fw-bold h1">Laika atskaite līdz pēdējai skolas dienai</h2>
+            <p class="h5">(30.05.2025.)</p>
+            <p class="h5">dienas: <span id="total-time2" class="fw-bold">Calculating...</span></p>
+            <p class="h5">darba dienas: <span id="work-time2" class="fw-bold">Calculating...</span></p>
+        
+            <a href="index.html" class="btn btn-outline-light btn-lg m-2 fw-bold" role="button">Atpakaļ</a>
         </div>
     </div>
 
@@ -59,12 +67,36 @@
         </div>
     </div>
 
+    <div class="modal fade" id="alertColor" data-bs-backdrop="static" data-bs-keyboard="false" role="dialog" aria-labelledby="alertModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="alertModalLabel">Apsveicu!</h5>
+                </div>
+                <div class="modal-body">
+                    <p>Pēc nejaušības principa, tu esi izvēlējies krāsu <span class="fw-bold text-uppercase" id="color-alert">[color]</span>, 
+                        kas ir <span class="fw-bold" id="color-desc-alert">[colorDesc]</span>! 
+                        <br>
+                        Iespēja, ka izkritīs tieši šī krāsa, ir <span class="fw-bold">0.00000596%</span>!
+                        <br>
+                        Iespēja, ka parādīsies šis paziņojums, ir <span class="fw-bold">0.0238%</span>!
+                        <br><br>
+                        Aizej nopērc loterijas biļeti, varbūt noveiksies</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Aizvērt</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <div class="container border-top">
         <footer class="mt-3">
           <p class="text-center text-white">&copy; <span id="currentYear"></span> Vilhelms Bavins</p>
         </footer>
     </div>
 
+    <script src="js/time.js"></script>
     <script src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
